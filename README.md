@@ -1,7 +1,12 @@
-# aws_tools
+# AWS_Tools
 
-# copy_otherRegion_ebs_snapshot
-EC2スナップショットを異なるリージョンに複製
+---
+## Duplicate the EC2 snapshot to another region
+AWS LambdaでEC2スナップショットを異なるリージョンに複製する関数
 
-# sync_otherRegion_s3_bucket
-特定環境S3の一部バケットを異なるリージョンに同期する
+* [copy\_otherRegion\_ebs\_snapshot](https://github.com/shishi1984pv/aws_tools/tree/master/lambda/copy_otherRegion_ebs_snapshot)
+
+## Function to synchronize some buckets of S3 to other regions
+AWS LambdaでS3の一部バケットを他のリージョンに同期する関数
+
+* [sync\_otherRegion\_s3\_bucket](https://github.com/shishi1984pv/aws_tools/tree/master/lambda/sync_otherRegion_s3_bucket)
