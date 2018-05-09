@@ -1,8 +1,9 @@
 # 特定環境S3の一部バケットを異なるリージョンに同期する
 
-bucket01.exsample.com
-bucket02.exsample.com
-bucket03.exsample.com
+* bucket01.exsample.com
+* bucket02.exsample.com
+* bucket03.exsample.com
+
 「dr-<上記ホスト名>」のバケットに同期  
 
 ## AWS Lambda実行環境へのAWS CLIの実装
