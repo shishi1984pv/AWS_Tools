@@ -1,0 +1,10 @@
+{
+  "name": "copy_otherRegion_ebs_snapshot",
+  "runtime": "python",
+  "memory": 128,
+  "timeout": 300,
+  "role": "arn:aws:iam::000000000000:role/prd_copy_otherRegion_ebs_snapshot",
+  "nameTemplate": "{{.Function.Name}}",
+  "handler": "copy_otherRegion_ebs_snapshot.lambda_handler",
+  "environment": {}
+}
