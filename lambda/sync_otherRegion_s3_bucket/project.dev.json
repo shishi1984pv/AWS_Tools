@@ -1,0 +1,10 @@
+{
+  "name": "sync_otherRegion_s3_bucket",
+  "runtime": "python",
+  "memory": 128,
+  "timeout": 300,
+  "role": "arn:aws:iam::000000000000:role/dev_sync_otherRegion_s3_bucket",
+  "nameTemplate": "{{.Function.Name}}",
+  "handler": "sync_otherRegion_s3_bucket.lambda_handler",
+  "environment": {}
+}
