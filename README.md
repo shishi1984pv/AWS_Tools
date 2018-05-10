@@ -1,6 +1,5 @@
 # AWS_Tools
 
----
 ## Duplicate the EC2 snapshot to another region
 AWS LambdaでEC2スナップショットを異なるリージョンに複製する関数
 
